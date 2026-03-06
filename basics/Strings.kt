@@ -26,4 +26,11 @@ fun main(args:Array<String>) {
 
     var str1="Hello \n Mr.Rakesh \n How \n Are You"
     println(str1)
+
+    var str= String("Rakeshrr".toCharArray())
+
+    println(str===s1)
+
+    println(str.hashCode())
+    println(s1.hashCode())
 }

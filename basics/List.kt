@@ -46,4 +46,13 @@ fun main(args: Array<String>) {
     while(iterator.hasNext()) {
         print("${iterator.next()}  ")
     }
+    println()
+    val numbers = arrayOf(1,-2,3,-4,5)
+    println("Actual Array: ${numbers.contentToString()}")
+    //filter the all elements in array and return an Array
+    println("Filter method: ${numbers.filter {item -> item > 0 }}")
+    //apply changes for all elements in the Array
+    println("Map method: ${numbers.map({item -> item+5})} ")
+    println("Reversed: ${numbers.reversed()} ")
+
 }
