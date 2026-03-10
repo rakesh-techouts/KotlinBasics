@@ -1,4 +1,4 @@
-package college
+package exceptions
 
 
 data class Student(

@@ -35,4 +35,16 @@ fun main(args: Array<String>) {
     for (item in mutableList) {
         println(item)
     }
+    val names = listOf("Gopal", "Asad", "Shubham", "Aditya", "Devarsh", "Nikhil", "Gagan")
+    println("Elements in List: $names")
+
+    println("Sorted: "+names.sorted())
+
+    println("Reversed Order: "+names.reversed())
+
+    println("Sorted Descending: "+names.sortedDescending())
+
+    println("Sorted by an Condition: "+names.sortedBy { it.length })
+
+    println("Sorted by Descending by Condition: "+names.sortedByDescending { it.length })
 }

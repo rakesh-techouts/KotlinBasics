@@ -1,13 +1,13 @@
 package opps;
 
-public class Employee {
+public class employee {
     private String name;
     private int age;
-    public Employee(String name, int age) {
+    public employee(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public Employee() {}
+    public employee() {}
 
 
 

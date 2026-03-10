@@ -1,4 +1,4 @@
-package college
+package exceptions
 
 data class Faculty(
     var name:String?=null,
